@@ -1,0 +1,134 @@
+<html>
+
+<head>
+    <title>Emily's Portfollio</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="RCquiz1.css">
+</head>
+  
+    <!--actual work-->
+   <body onload="startClock()"> 
+    <div onclick="location.href='Home1.html';" class="header">
+        <h2 id="topimage">History of Architecture</h2>
+        <a href="Emily.html" class="link">Link</a>
+    </div>
+    <div class="Nav-bar">
+        <div class="dropdown">
+            <button class="dropbtn">Intro</button>
+            <div class="dropdown-content">
+                <a href="Intro.html">Article</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn">Renaissance</button>
+            <div class="dropdown-content">
+                <a href="Renaissance.html">Article</a>
+                <a href="Quiz1.html">Quiz</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn">Baroque</button>
+            <div class="dropdown-content">
+                <a href="Baroque.html">Article</a>
+                <a href="Quiz2.html">Quiz</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn">Neoclass & Indust</button>
+            <div class="dropdown-content">
+                <a href="Neoclassical+Indust.html">Article</a>
+                <a href="Quiz3.html">Quiz</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn">Art Nouv</button>
+            <div class="dropdown-content">
+                <a href="ArtNouveau.html">Article</a>
+                <a href="Quiz4.html">Quiz</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn">Modern Arch</button>
+            <div class="dropdown-content">
+                <a href="ModernArch.html">Article</a>
+                <a href="FinalQuiz.html">Quiz</a>
+            </div>
+        </div>
+    </div>
+        <h5 class="Clock" id="txt"></h5>
+        
+    <div class="Big-text">  
+    <h1>Quiz: Baroque</h1>
+    
+    <div class="Qbox">
+    <form action="#" method="post" class="demoForm" id="demoForm1">
+    <fieldset>
+    
+    <h2>What sort of shapes did architects in this period like to use in their designs?</h2>
+    <p>
+        <label><input type="radio" name="ship1" value="1a" checked />Ovals, trapezoids and dramatic curves</label>
+        <br/>
+        <label><input type="radio" name="ship1" value="1b" />Squares triangles and and circles</label>
+        <br/>
+        <label><input type="radio" name="ship1" value="1c" />Straight lines and triangles</label>
+    </p>
+    </fieldset>
+    </form>
+    <div id="Checking1"></div>
+    </div>
+    
+    <div class="Qbox">
+    <form action="#" method="post" class="demoForm" id="demoForm2">
+    <fieldset>
+        
+    <h2>Who did the Catholic Church hire to help make there churchs look appealing? </h2>
+    <p>
+        <label><input type="radio" name="ship2" value="2a" checked />Architects</label>
+        <br/>
+        <label><input type="radio" name="ship2" value="2b" />Sculptors</label>
+        <br/>
+        <label><input type="radio" name="ship2" value="2c" />Painters</label>
+        <br/>
+        <label><input type="radio" name="ship2" value="2d" />All of the above </label>
+    </p>
+    </fieldset>
+        </form>
+    <div id="Checking2"></div>
+    </div>
+    <div class="Qbox">
+    <form action="#" method="post" class="demoForm" id="demoForm3">
+    <fieldset>
+        <h2>Who started the Prodestant church?</h2>
+    <p>
+        <label><input type="radio" name="ship3" value="3a" checked />Martin Luther</label>
+        <br/>
+        <label><input type="radio" name="ship3" value="3b" />Pope Leo X </label>
+    </p>
+    </fieldset>
+    </form>
+    <div id="Checking3"></div>
+    </div>
+        <div class="Qbox">
+    <form action="#" method="post" class="demoForm" id="demoForm4">
+    <fieldset>
+        <h2>When did the baroque style spread to South America?</h2>
+    <p>
+        <label><input type="radio" name="ship4" value="4a" checked />16th century</label>
+        <br/>
+        <label><input type="radio" name="ship4" value="4b" />Mid 17th century</label>
+        <br/>
+        <label><input type="radio" name="ship4" value="4c" />About 200 years ago </label>
+    </p>
+    </fieldset>
+    </form>
+    <div id="Checking4"></div>
+    </div>
+        <p><button type="button" name="getVal" id="Result" class="wayman">Get Answers</button></p>
+        <div id="RESULTBOX"></div>
+        </div>
+        <button class=Button1 onclick="window.location.href = 'Neoclassical+Indust.html';">Next page</button>
+    </body>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script type="text/javascript" src="Jquiz2.js"></script>
+</html>

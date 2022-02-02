@@ -1,0 +1,418 @@
+@Essays1743 {
+    font-family: Essays1743;
+    src: url(Font/essays1743/essays1743/Essays1743.ttf);
+}
+
+@MiddleAges {
+    font-family: MiddleAges;
+    src: url(Font/middle-ages-font/MiddleAgesPersonalUse-2OOYe.ttf);
+}
+
+@font-face{
+    font-family: Enchant;
+    src: url(Font/Enchanted.otf);
+}
+
+
+@font-face {
+    font-family: Robotoc;
+    src: url(Font/Roboto-Regular.ttf);
+}
+
+
+@font-face{
+    font-family: RobotoB;
+    src: url(Font/Roboto-Bold.ttf);
+}
+
+
+@font-face{
+    font-family: RobotoM;
+    src: url(Font/Roboto-Medium.ttf);
+}
+
+@font-face{
+    font-family: Robotol;
+    src: url(Font/Roboto-Light.ttf);
+}
+
+.header{
+    margin: 0px;
+    background-image: url("Image/coverart7.jpg");
+    background-size: cover;
+    width: 100%;
+    transition: 0.1s;
+    background-color: white;
+}
+
+.header:hover{
+    opacity:0.75;
+}
+
+.link{
+opacity: 0;
+}
+
+#topimage{
+    font-size: 475%;
+    color: Black;
+    text-align: center;
+    margin:0px;
+    padding: 50px;
+    padding-bottom: 60px;
+    font-family: Enchant;
+}
+
+
+.bigbox {
+    width: 1000px;
+    min-height: 100%;
+    height: 100%;
+    border-radius: 5px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: #fffcf0;
+    text-align: center;
+    font-size: 30px;
+}
+
+.Nav-bar{
+    background-color: #624d39;
+    margin-bottom: 15px;
+}
+
+/* Dropdown Button */
+.dropbtn {
+    display: inline-block;
+    color: white;
+    background:#624d39;
+    border-radius: 2px;
+    border-style: solid;
+    border-color: #624d39;
+    text-decoration: none;
+    padding: 10px;
+    width: 200px;
+    transition: 0.2s
+}
+
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 250px;
+  box-shadow: 4px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  transition: 0.2s;  
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color:#9b8c62;
+    border-color: #9b8c62;
+}
+
+
+.body {
+    width: 100%;
+    margin: 0px;
+    font-size: 10pt;
+    font-size: 20px;
+    color: #333;
+    Background:#959266; 
+    overflow: auto;
+}
+
+.top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    color: black;
+    font-size: 20px;
+}
+
+.carousel-item img{
+   margin-left: auto; 
+    margin-right: auto; 
+}
+
+img {
+    /*max-width: 100%;*/
+    /*This was auto before but I changed it to make it bigger 900*/
+    width: 100%;
+    height: auto;
+    margin: 10px;
+    max-width: 700px; 
+    max-height: 800px
+}
+.Tall{
+    width: auto;
+    max-height: 800px;
+    text-align: center;
+}
+
+.carousel-control-prev{
+    color: black; 
+    position: relative; 
+    left: 20px; 
+    transform: translate(-50%,0%);
+}
+
+.carousel-control-next{
+    color: black; 
+      position: relative; 
+    left: 20px; 
+     transform: translate(600%,0%);
+}
+
+.Heading{
+    font-size: 24px;
+    color: black;
+    margin: 20px;
+    font-family: RobotoM;
+}
+
+.Lesson{
+    font-size: 22px;
+    color: black;
+    margin: 12px;
+    font-family: RobotoM;
+}
+
+p {
+    font-family: Robotoc;
+    color: black;
+    font-size: 20px;
+    text-align: left;
+}
+
+.captions{
+    font-family: Robotoc;
+    color: grey;
+    font-size: 18px;
+    text-align: left;
+    margin-left: 50px;
+}
+
+.centerText{
+    font-family: Robotoc;
+    text-align: center;
+    font-size: 18pxs;
+    color: grey;
+}
+
+.Button1{
+    Display: block;
+    margin: 10px;
+    background:#a9d8b1;
+    border-style: solid;
+    border-color: #618153; 
+    color: #366846;
+    border-radius: 5px;
+    border-width: 5px; 
+    margin-left: auto;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-right: 28px;
+    font-family: RobotoB;
+    box-shadow: 4px 4px 6px 0px rgba(0,0,0,0.2);
+    transition: 0.2s;
+}
+
+.Button1:hover{
+    Opacity:0.70;
+}
+
+.Buttonbox2{
+    font-size: 20px; 
+    Display: block;
+      text-align: center;
+    margin: 10px;
+    background:#a9d8b1;
+    border-style: solid;
+    border-color: #618153; 
+    color: #366846;
+    border-radius: 5px;
+    border-width: 3px; 
+    margin-right: auto;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-right: 28px;
+    font-family: RobotoB;
+    box-shadow: 4px 4px 6px 0px rgba(0,0,0,0.2);
+    transition: 0.2s;
+    
+}
+
+.Buttonbox2:hover{
+    opacity:0.75;
+}
+
+.Centerbutton{
+    font-size: 20px; 
+    text-align: center;
+    margin: 10px;
+    background:#a9d8b1;
+    border-style: solid;
+    border-color: #618153; 
+    color: #366846;
+    border-radius: 5px;
+    border-width: 3px; 
+    margin-right: auto;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-right: 28px;
+    font-family: RobotoB;
+    box-shadow: 4px 4px 6px 0px rgba(0,0,0,0.2);
+    transition: 0.2s;
+    
+}
+
+.Centerbutton:hover{
+    opacity:0.75;
+}
+
+.row img{
+    max-width: 300px; 
+    height: auto; 
+    max-height: 900px; 
+    margin:10; 
+    display: flex; 
+}
+
+/*size of arch and domes Intro*/
+.hoverimage img {
+    width: 33%; 
+    transition: .3s;s
+}
+
+.hoverimage:hover img {
+    filter: blur(2px) brightness(60%);
+}
+
+/*Text of arch and domes Intro*/
+.hoverimage:hover h3 {
+    color: white;
+    display: inline-block;
+    transition: .3s; 
+}
+
+.hoverimage :not(img) {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 1;
+    text-align: center;
+    padding-left: auto;
+    padding-right: auto;
+    transform: translate(-50%, -50%);
+}
+
+/*makes the text of arch and domes Intro invisible*/
+.hoverimage h3{
+    display: none; 
+    transition: .3s;
+}
+
+.hoverimage {
+    position: relative;
+}
+
+/*Makes the second image blurry*/
+.hoverimage1:hover img {
+    filter: blur(2px) brightness(60%);
+}
+
+/*Makes the white text of second*/
+.hoverimage1:hover h3 {
+    color: white;
+    display: inline-block;
+    transition: .3s; 
+}
+/*Makes the text white*/
+.hoverimage1 h3 {
+    display: none;
+    font-size: 15px; 
+    color: white;
+    transition: .3s; 
+   
+}
+/*Makes the text appear*/
+.hoverimage1 :not(img) {
+    position: relative;
+    top: 50%;
+    z-index: 1;
+    text-align: center;
+    padding-left: auto;
+    padding-right: auto;
+  top:-250px;
+}
+
+.Soundicon{
+    height: auto;
+    width: 70px;
+}
+
+.soundbyte{
+    font-size:20px;
+}
+
+.ButtonF{
+    font-size: 20px; 
+    padding: 10px; 
+    border: solid #366846 2px;
+    background-color: #a9d8b1; 
+    border-radius: 10px; 
+   
+}
+
+.review{
+   border: solid #366846 1.5px;
+    border-radius: 10px; 
+    padding: 15px;
+    background-color:#a9d8b1; 
+}
+
+.textli{
+    font-size: 20px; 
+    color: black; 
+    text-align: left;  
+    padding-left: 30px; 
+     list-style-type: square;
+}
+
+
+    
